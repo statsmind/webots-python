@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from vehicle.driver import Driver  # noqa
-from vehicle.car import Car        # noqa
+from .driver import Driver  # noqa
+from .car import Car        # noqa
 
 __all__ = [Car, Driver]
