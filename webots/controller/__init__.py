@@ -12,43 +12,43 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from controller.field import Field                             # noqa
-from controller.proto import Proto                             # noqa
-from controller.node import Node, ContactPoint                 # noqa
-from controller.ansi_codes import AnsiCodes                    # noqa
-from controller.accelerometer import Accelerometer             # noqa
-from controller.altimeter import Altimeter                     # noqa
-from controller.brake import Brake                             # noqa
-from controller.camera import Camera, CameraRecognitionObject  # noqa
-from controller.compass import Compass                         # noqa
-from controller.connector import Connector                     # noqa
-from controller.display import Display                         # noqa
-from controller.distance_sensor import DistanceSensor          # noqa
-from controller.emitter import Emitter                         # noqa
-from controller.gps import GPS                                 # noqa
-from controller.gyro import Gyro                               # noqa
-from controller.inertial_unit import InertialUnit              # noqa
-from controller.led import LED                                 # noqa
-from controller.lidar import Lidar                             # noqa
-from controller.lidar_point import LidarPoint                  # noqa
-from controller.light_sensor import LightSensor                # noqa
-from controller.motor import Motor                             # noqa
-from controller.position_sensor import PositionSensor          # noqa
-from controller.radar import Radar                             # noqa
-from controller.radar_target import RadarTarget                # noqa
-from controller.range_finder import RangeFinder                # noqa
-from controller.receiver import Receiver                       # noqa
-from controller.robot import Robot                             # noqa
-from controller.skin import Skin                               # noqa
-from controller.speaker import Speaker                         # noqa
-from controller.supervisor import Supervisor                   # noqa
-from controller.touch_sensor import TouchSensor                # noqa
-from controller.vacuum_gripper import VacuumGripper            # noqa
-from controller.keyboard import Keyboard                       # noqa
-from controller.mouse import Mouse                             # noqa
-from controller.mouse import MouseState                        # noqa
-from controller.joystick import Joystick                       # noqa
-from controller.motion import Motion                           # noqa
+from .field import Field                             # noqa
+from .proto import Proto                             # noqa
+from .node import Node, ContactPoint                 # noqa
+from .ansi_codes import AnsiCodes                    # noqa
+from .accelerometer import Accelerometer             # noqa
+from .altimeter import Altimeter                     # noqa
+from .brake import Brake                             # noqa
+from .camera import Camera, CameraRecognitionObject  # noqa
+from .compass import Compass                         # noqa
+from .connector import Connector                     # noqa
+from .display import Display                         # noqa
+from .distance_sensor import DistanceSensor          # noqa
+from .emitter import Emitter                         # noqa
+from .gps import GPS                                 # noqa
+from .gyro import Gyro                               # noqa
+from .inertial_unit import InertialUnit              # noqa
+from .led import LED                                 # noqa
+from .lidar import Lidar                             # noqa
+from .lidar_point import LidarPoint                  # noqa
+from .light_sensor import LightSensor                # noqa
+from .motor import Motor                             # noqa
+from .position_sensor import PositionSensor          # noqa
+from .radar import Radar                             # noqa
+from .radar_target import RadarTarget                # noqa
+from .range_finder import RangeFinder                # noqa
+from .receiver import Receiver                       # noqa
+from .robot import Robot                             # noqa
+from .skin import Skin                               # noqa
+from .speaker import Speaker                         # noqa
+from .supervisor import Supervisor                   # noqa
+from .touch_sensor import TouchSensor                # noqa
+from .vacuum_gripper import VacuumGripper            # noqa
+from .keyboard import Keyboard                       # noqa
+from .mouse import Mouse                             # noqa
+from .mouse import MouseState                        # noqa
+from .joystick import Joystick                       # noqa
+from .motion import Motion                           # noqa
 
 __all__ = [
     Accelerometer, Altimeter, AnsiCodes, Brake, Camera, CameraRecognitionObject, Compass, Connector, ContactPoint, Display,
