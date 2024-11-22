@@ -2,3 +2,4 @@ build
 dist
 webots.egg-info
 .idea
+__pycache__
