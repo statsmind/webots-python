@@ -193,99 +193,99 @@ class Robot:
         wb.wb_robot_cleanup()
 
     def getAccelerometer(self, name: str) -> Accelerometer:
-        print('DEPRECATION: Robot.getAccelerometer is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getAccelerometer is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getAltimeter(self, name: str) -> Altimeter:
-        print('DEPRECATION: Robot.getAltimeter is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getAltimeter is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getBrake(self, name: str) -> Brake:
-        print('DEPRECATION: Robot.getBrake is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getBrake is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getCamera(self, name: str) -> Camera:
-        print('DEPRECATION: Robot.getCamera is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getCamera is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getCompass(self, name: str) -> Compass:
-        print('DEPRECATION: Robot.getCompass is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getCompass is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getConnector(self, name: str) -> Connector:
-        print('DEPRECATION: Robot.getConnector is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getConnector is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getDisplay(self, name: str) -> Display:
-        print('DEPRECATION: Robot.getDisplay is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getDisplay is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getDistanceSensor(self, name: str) -> DistanceSensor:
-        print('DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getEmitter(self, name: str) -> Emitter:
-        print('DEPRECATION: Robot.getEmitter is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getEmitter is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getGPS(self, name: str) -> GPS:
-        print('DEPRECATION: Robot.getGPS is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getGPS is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getGyro(self, name: str) -> Gyro:
-        print('DEPRECATION: Robot.getGyro is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getGyro is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getInertialUnit(self, name: str) -> InertialUnit:
-        print('DEPRECATION: Robot.getInertialUnit is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getInertialUnit is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getLED(self, name: str) -> LED:
-        print('DEPRECATION: Robot.getLed is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getLed is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getLidar(self, name: str) -> Lidar:
-        print('DEPRECATION: Robot.getLidar is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getLidar is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getLightSensor(self, name: str) -> LightSensor:
-        print('DEPRECATION: Robot.getLightSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getLightSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getMotor(self, name: str) -> Motor:
-        print('DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getPen(self, name: str) -> Pen:
-        print('DEPRECATION: Robot.getPen is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getPen is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getPositionSensor(self, name: str) -> PositionSensor:
-        print('DEPRECATION: Robot.getPositionSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getPositionSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getRadar(self, name: str) -> Radar:
-        print('DEPRECATION: Robot.getRadar is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getRadar is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getRangeFinder(self, name: str) -> RangeFinder:
-        print('DEPRECATION: Robot.getRangeFinder is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getRangeFinder is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getReceiver(self, name: str) -> Receiver:
-        print('DEPRECATION: Robot.getReceiver is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getReceiver is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getSkin(self, name: str) -> Skin:
-        print('DEPRECATION: Robot.getSkin is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getSkin is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getSpeaker(self, name: str) -> Speaker:
-        print('DEPRECATION: Robot.getSpeaker is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getSpeaker is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getTouchSensor(self, name: str) -> TouchSensor:
-        print('DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
+        # print('DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.', file=sys.stderr)
         return self.getDevice(name)
 
     def getDevice(self, name: str) -> Device:
